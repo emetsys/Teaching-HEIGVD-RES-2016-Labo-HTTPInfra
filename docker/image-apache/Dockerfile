@@ -1,4 +1,2 @@
 FROM php:5.6-apache
-COPY src/var/www/html/
-
-EXPOSE 80:8080
+COPY src /var/www/html/
